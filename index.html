@@ -197,6 +197,13 @@
   .modal h3{font-size:1.3rem;margin-bottom:8px}
   .modal p{color:var(--muted);font-size:.95rem;margin-bottom:16px}
   .modal .big{color:var(--brand-dark);font-family:'Space Grotesk';font-weight:700;font-size:1.1rem}
+  .modal .extras{list-style:none;text-align:left;margin:4px 0 14px;padding:12px 14px;background:var(--soft);border-radius:12px}
+  .modal .extras li{display:flex;gap:9px;align-items:flex-start;font-size:.9rem;padding:4px 0;color:var(--ink)}
+  .modal .extras li .ck{color:var(--green);font-weight:700;flex-shrink:0}
+  .modal .down-price{font-size:1rem;margin-bottom:14px;font-weight:600}
+  .modal .down-price s{color:#e0214e;font-weight:500}
+  .modal .down-price b{color:var(--green);font-family:'Space Grotesk';font-size:1.25rem}
+  .modal .down-price span{display:block;font-size:.72rem;color:var(--muted);font-weight:500;margin-top:2px}
   .modal .ghost{display:block;margin-top:12px;color:var(--muted);font-size:.82rem;background:none;border:none;cursor:pointer;text-decoration:underline;width:100%}
 
   /* FLOAT SOCIAL PROOF */
@@ -460,8 +467,15 @@
   <div class="modal">
     <button class="close" onclick="closeDown()">×</button>
     <h3>Espera! 🎁</h3>
-    <p>Por só <span class="big">R$12,90 a mais</span> você leva os <b>5 jogos + os 3 bônus</b> prontos pra imprimir. É o que quase toda mãe escolhe.</p>
-    <a href="#checkout-premium" class="cta">QUERO A COMPLETA POR R$26,90 →</a>
+    <p>Por só <span class="big">R$5,90 a mais</span> você desbloqueia:</p>
+    <ul class="extras">
+      <li><span class="ck">✓</span> 5 Jogos Terapêuticos pra imprimir</li>
+      <li><span class="ck">✓</span> Bônus: O Que Fazer Durante uma Crise</li>
+      <li><span class="ck">✓</span> Bônus: Frases que Acalmam</li>
+      <li><span class="ck">✓</span> Bônus: Calendário de Desenvolvimento</li>
+    </ul>
+    <p class="down-price">De <s>R$26,90</s> por só <b>R$19,90</b> <span>(oferta só agora)</span></p>
+    <a href="#checkout-downsell" class="cta">QUERO A COMPLETA POR R$19,90 →</a>
     <button class="ghost" onclick="goBasico()">Não, quero só a essencial por R$14</button>
   </div>
 </div>
