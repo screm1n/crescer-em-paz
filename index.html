@@ -57,7 +57,7 @@
   .badge-top{display:inline-flex;align-items:center;gap:6px;background:var(--soft);color:var(--brand-dark);border-radius:999px;padding:6px 14px;font-size:.8rem;font-weight:600;margin-bottom:16px}
   h1{font-size:1.95rem;line-height:1.12;letter-spacing:-.03em;margin-bottom:12px}
   .sub{color:var(--muted);font-size:1.02rem;margin-bottom:18px}
-  .hero-img{width:100%;border-radius:16px;box-shadow:var(--shadow);margin:8px 0 18px;background:var(--soft);aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.85rem;text-align:center;padding:20px}
+  .hero-img{width:100%;border-radius:16px;box-shadow:var(--shadow);margin:8px 0 18px;display:block}
   .stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
   .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-size:.82rem;font-weight:600}
   .stat b{color:var(--brand-dark);font-family:'Space Grotesk'}
@@ -128,7 +128,14 @@
   .bonus .val b{color:var(--green);font-size:1.1rem}
   .bonus-close{text-align:center;font-weight:700;margin-top:8px;font-size:1.05rem}
 
-  /* DEPOIMENTOS */
+  /* DEPOIMENTOS — prints reais */
+  .prints{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 16px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .prints::-webkit-scrollbar{height:6px}
+  .prints::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+  .print{flex:0 0 80%;max-width:300px;scroll-snap-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:8px;box-shadow:var(--shadow);position:relative}
+  .print img{width:100%;border-radius:14px;display:block}
+  .print .verified{position:absolute;top:14px;right:14px;background:var(--green);color:#fff;font-size:.64rem;font-weight:700;border-radius:999px;padding:3px 9px;box-shadow:0 2px 6px rgba(0,0,0,.15);z-index:2}
+  .swipe-hint{text-align:center;color:var(--muted);font-size:.78rem;margin-top:-4px}
   .rev{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:12px;box-shadow:var(--shadow)}
   .rev .stars{color:#ffb400;font-size:.95rem}
   .rev .who{font-weight:700;font-size:.9rem;margin:6px 0 3px}
@@ -210,8 +217,7 @@
     <span class="badge-top">⭐ +472 mães já usam em casa</span>
     <h1>+900 Ferramentas Terapêuticas <span class="em">Prontas pra Imprimir</span> e Usar Hoje</h1>
     <p class="sub">Organizadas por idade, do terror dos 3 anos à pré-adolescência. Você <b>imprime, senta com seu filho e aplica</b> — em 5 minutos, sem preparo e sem terapeuta.</p>
-    <!-- IMAGEM HERO: mockup dos kits impressos espalhados numa mesa + criança usando. Trocar assets/hero.jpg -->
-    <div class="hero-img">[ Imagem: kits impressos numa mesa + mãe e filho aplicando uma atividade ]</div>
+    <img class="hero-img" src="assets/imagens/produto.png" alt="+900 Ferramentas Terapêuticas — Kit Completo pronto pra imprimir" width="1290" height="1290" loading="eager">
     <div class="print-chip">🖨️ Baixe → Imprima → Aplique</div>
     <div class="stats">
       <div class="stat">📄 <b>+900</b> ferramentas</div>
@@ -236,6 +242,7 @@
       <li><span class="x">✕</span> Cada nova fase parece um desafio que você não foi preparada pra enfrentar</li>
     </ul>
     <p class="turn">A verdade é que você não precisa de mais teoria.<br><span class="hl">Você precisa de algo pronto pra imprimir e usar hoje.</span></p>
+    <img class="hero-img" src="assets/imagens/maefilha.png" alt="Mãe e filha usando as ferramentas juntas em casa" width="1536" height="1024" loading="lazy" style="margin-top:20px">
   </section>
 
   <!-- O QUE RECEBE: KITS POR IDADE -->
@@ -312,13 +319,14 @@
 
   <!-- DEPOIMENTOS -->
   <section>
-    <div class="center"><div class="kicker">Quem já imprimiu</div><h2>Mães reais, resultados reais</h2></div>
-    <div style="margin-top:16px">
-      <div class="rev"><div class="stars">★★★★★</div><div class="who">Juliana M. <span>· Campinas/SP</span></div><p>"Imprimi o kit dos 5 anos e no mesmo dia meu filho já tava mais calmo na hora de dormir. Melhor R$27 que já gastei."</p></div>
-      <div class="rev"><div class="stars">★★★★★</div><div class="who">Patrícia R. <span>· Salvador/BA</span></div><p>"O que me pegou foi ser separado por idade. Eu nunca sabia o que usar, agora é só abrir a fase da minha filha e imprimir."</p></div>
-      <div class="rev"><div class="stars">★★★★★</div><div class="who">Fernanda L. <span>· Curitiba/PR</span></div><p>"As crises de raiva diminuíram MUITO. As fichas de respiração viraram rotina aqui em casa. Recomendo pra toda mãe."</p></div>
+    <div class="center"><div class="kicker">Direto do WhatsApp e do Direct</div><h2>O que as mães <span class="em">estão falando</span></h2></div>
+    <p class="swipe-hint">← arraste pra ver mais →</p>
+    <div class="prints">
+      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-16.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-17.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-18.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-19.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
     </div>
-    <!-- Trocar por depoimentos/prints reais quando tiver -->
   </section>
 
   <!-- PRICING -->
