@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crescer em Paz — +900 Ferramentas Prontas pra Imprimir</title>
+
+<!-- META PIXEL: cole seu pixel aqui -->
+<!-- UTMIFY: cole seu pixel aqui -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#fff7f2;
+    --card:#ffffff;
+    --ink:#3a2e33;
+    --muted:#7a6a70;
+    --brand:#e8628a;      /* rosa aconchegante */
+    --brand-dark:#c94873;
+    --accent:#ffb347;     /* amarelo quente */
+    --green:#2fae7a;
+    --soft:#fde8ef;
+    --line:#f2dbe3;
+    --shadow:0 8px 24px rgba(201,72,115,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.55;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:600px;margin:0 auto;padding:0 18px}
+  h1,h2,h3,.price,.cta{font-family:'Space Grotesk',sans-serif}
+  h2{font-size:1.5rem;line-height:1.2;margin-bottom:14px;letter-spacing:-.02em}
+  .em{color:var(--brand-dark)}
+  .hl{background:linear-gradient(180deg,transparent 60%,#ffe08a 60%);padding:0 2px}
+
+  /* STICKY BAR */
+  .sticky{
+    position:sticky;top:0;z-index:50;
+    background:var(--brand-dark);color:#fff;
+    text-align:center;padding:8px 12px;font-size:.86rem;font-weight:600;
+    display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;
+  }
+  .sticky .tag{background:#fff;color:var(--brand-dark);border-radius:6px;padding:2px 8px;font-weight:700;font-size:.78rem}
+  #timer{font-family:'Space Grotesk';font-weight:700;background:rgba(0,0,0,.18);padding:2px 8px;border-radius:6px}
+
+  /* HERO */
+  .hero{padding:26px 0 8px;text-align:center}
+  .badge-top{display:inline-flex;align-items:center;gap:6px;background:var(--soft);color:var(--brand-dark);border-radius:999px;padding:6px 14px;font-size:.8rem;font-weight:600;margin-bottom:16px}
+  h1{font-size:1.95rem;line-height:1.12;letter-spacing:-.03em;margin-bottom:12px}
+  .sub{color:var(--muted);font-size:1.02rem;margin-bottom:18px}
+  .hero-img{width:100%;border-radius:16px;box-shadow:var(--shadow);margin:8px 0 18px;background:var(--soft);aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.85rem;text-align:center;padding:20px}
+  .stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-size:.82rem;font-weight:600}
+  .stat b{color:var(--brand-dark);font-family:'Space Grotesk'}
+
+  /* CTA BUTTON */
+  .cta{
+    display:block;width:100%;text-align:center;
+    background:linear-gradient(180deg,var(--brand) 0%,var(--brand-dark) 100%);
+    color:#fff;font-weight:700;font-size:1.12rem;
+    padding:17px 20px;border:none;border-radius:14px;cursor:pointer;
+    box-shadow:0 6px 0 var(--brand-dark),0 12px 22px rgba(201,72,115,.32);
+    text-decoration:none;letter-spacing:.01em;transition:transform .12s,box-shadow .12s;
+    animation:pulse 2.2s infinite;
+  }
+  .cta:active{transform:translateY(4px);box-shadow:0 2px 0 var(--brand-dark)}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+  .sub-cta{text-align:center;color:var(--muted);font-size:.82rem;margin-top:9px}
+  .print-chip{display:inline-flex;align-items:center;gap:6px;background:#eafaf2;color:var(--green);border:1px solid #c7efdd;border-radius:999px;padding:6px 13px;font-size:.82rem;font-weight:700;margin:6px auto 0}
+
+  section{padding:30px 0}
+  .center{text-align:center}
+  .kicker{color:var(--brand);font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+
+  /* DOR */
+  .pain{background:#fff;border-radius:18px;border:1px solid var(--line);padding:22px 18px;box-shadow:var(--shadow)}
+  .pain li{list-style:none;display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed var(--line);font-size:.98rem}
+  .pain li:last-child{border-bottom:none}
+  .pain .x{color:var(--brand);font-weight:700;flex-shrink:0}
+  .turn{margin-top:16px;font-weight:600;text-align:center;font-size:1.04rem}
+
+  /* KITS POR IDADE — linha do tempo de crescimento */
+  .journey{position:relative;margin-top:22px;padding-left:36px}
+  .journey:before{content:"";position:absolute;left:15px;top:18px;bottom:34px;width:3px;
+    background:linear-gradient(180deg,#f4886a 0%,#e8628a 25%,#a06cd5 50%,#4a90d9 75%,#2fae7a 100%);border-radius:3px}
+  .stage{position:relative;margin-bottom:14px}
+  .stage:before{content:"";position:absolute;left:-28px;top:26px;width:13px;height:13px;border-radius:50%;
+    background:var(--c);border:3px solid var(--bg);box-shadow:0 0 0 2px var(--c),0 2px 6px rgba(0,0,0,.12);z-index:2}
+  .stage-card{background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:15px 16px;display:flex;gap:15px;align-items:center;box-shadow:var(--shadow);
+    position:relative;overflow:hidden;transition:transform .15s}
+  .stage-card:after{content:"";position:absolute;right:-34px;top:-34px;width:118px;height:118px;
+    border-radius:50%;background:var(--c);opacity:.08}
+  .stage-card:hover{transform:translateX(3px)}
+  .stage-age{flex-shrink:0;text-align:center;min-width:56px;position:relative;z-index:1}
+  .stage-age b{font-family:'Space Grotesk';font-weight:700;font-size:1.85rem;color:var(--c);
+    line-height:.9;display:block;letter-spacing:-.04em}
+  .stage-age small{font-size:.6rem;letter-spacing:.16em;color:var(--muted);font-weight:700;display:block;margin-top:3px}
+  .stage-body{flex:1;min-width:0;position:relative;z-index:1}
+  .stage-body h3{font-size:1.08rem;margin-bottom:3px;letter-spacing:-.01em}
+  .stage-body p{color:var(--muted);font-size:.85rem;line-height:1.4}
+  .stage-print{display:inline-flex;align-items:center;gap:5px;margin-top:9px;font-size:.7rem;
+    font-weight:700;color:var(--c);background:var(--cbg);border-radius:999px;padding:4px 10px}
+  .stage-games .stage-card{background:linear-gradient(120deg,#fff6df,#ffe9f0)}
+  .stage-games .stage-age b{font-size:1.7rem}
+
+  /* RESULTADOS */
+  .res{display:grid;gap:10px}
+  .res .item{display:flex;gap:11px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.95rem}
+  .res .ck{color:var(--green);font-weight:700;flex-shrink:0}
+
+  /* BONUS */
+  .bonus{background:var(--card);border:2px dashed var(--brand);border-radius:16px;padding:15px;margin-bottom:12px}
+  .bonus .tag{display:inline-block;background:var(--brand);color:#fff;font-family:'Space Grotesk';font-weight:700;font-size:.74rem;border-radius:6px;padding:3px 9px;margin-bottom:7px;letter-spacing:.04em}
+  .bonus h3{font-size:1.05rem;margin-bottom:4px}
+  .bonus p{color:var(--muted);font-size:.9rem}
+  .bonus .val{margin-top:6px;font-size:.82rem}
+  .bonus .val s{color:var(--muted)}
+  .bonus-close{text-align:center;font-weight:700;margin-top:8px;font-size:1.05rem}
+
+  /* DEPOIMENTOS */
+  .rev{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .rev .stars{color:#ffb400;font-size:.95rem}
+  .rev .who{font-weight:700;font-size:.9rem;margin:6px 0 3px}
+  .rev .who span{color:var(--muted);font-weight:500}
+  .rev p{font-size:.94rem;color:var(--ink)}
+
+  /* PRICING */
+  .plans{display:grid;gap:16px;margin-top:6px}
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 18px;position:relative;box-shadow:var(--shadow)}
+  .plan.best{border:2px solid var(--brand);box-shadow:0 12px 30px rgba(201,72,115,.20)}
+  .plan .flag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--brand);color:#fff;font-family:'Space Grotesk';font-weight:700;font-size:.74rem;padding:5px 14px;border-radius:999px;white-space:nowrap;letter-spacing:.03em}
+  .plan h3{font-size:1.15rem;margin-bottom:8px}
+  .plan .anchor{color:var(--muted);font-size:.9rem}
+  .plan .anchor s{opacity:.8}
+  .price{font-size:2.5rem;font-weight:700;color:var(--brand-dark);line-height:1;margin:2px 0 2px}
+  .price small{font-size:1rem;color:var(--muted);font-weight:500}
+  .plan ul{list-style:none;margin:14px 0}
+  .plan ul li{padding:6px 0;font-size:.92rem;display:flex;gap:9px;align-items:flex-start}
+  .plan ul li .ck{color:var(--green);font-weight:700}
+  .plan ul li.no{color:var(--muted)}
+  .plan ul li.no .ck{color:#d9b8c4}
+  .trust{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+  .trust span{font-size:.72rem;color:var(--muted);background:var(--soft);border-radius:8px;padding:4px 9px}
+
+  /* GARANTIA */
+  .guarantee{background:linear-gradient(135deg,#eafaf2,#fff);border:1px solid #c7efdd;border-radius:18px;padding:24px 18px;text-align:center}
+  .seal-img{width:120px;height:120px;object-fit:contain;display:block;margin:0 auto 14px;filter:drop-shadow(0 8px 16px rgba(0,0,0,.18))}
+  .seal{width:92px;height:92px;border-radius:50%;background:var(--green);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto 14px;font-family:'Space Grotesk';font-weight:700;line-height:1;box-shadow:0 8px 18px rgba(47,174,122,.3)}
+  .seal b{font-size:1.7rem}
+  .seal small{font-size:.62rem;letter-spacing:.06em}
+
+  /* FAQ */
+  .faq-item{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+  .faq-q{padding:15px 16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:.96rem}
+  .faq-q .ico{color:var(--brand);font-size:1.3rem;transition:transform .2s;flex-shrink:0}
+  .faq-item.open .ico{transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease;color:var(--muted);font-size:.92rem}
+  .faq-a p{padding:0 16px 15px}
+
+  /* FINAL */
+  .final{background:var(--brand-dark);color:#fff;border-radius:20px;padding:28px 20px;text-align:center;margin:20px 0}
+  .final h2{color:#fff}
+  .final .cta{margin-top:16px;animation:none;background:linear-gradient(180deg,var(--accent),#ef9a2e);box-shadow:0 6px 0 #cf7d1a}
+  .final .anchor-line{margin-top:12px;font-size:.9rem;opacity:.9}
+
+  footer{text-align:center;padding:26px 18px 40px;color:var(--muted);font-size:.76rem;line-height:1.6}
+
+  /* POPUP DOWNSELL */
+  .overlay{position:fixed;inset:0;background:rgba(58,46,51,.6);z-index:100;display:none;align-items:center;justify-content:center;padding:18px}
+  .overlay.show{display:flex}
+  .modal{background:var(--card);border-radius:20px;max-width:400px;width:100%;padding:26px 22px;text-align:center;position:relative;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+  .modal .close{position:absolute;top:12px;right:16px;font-size:1.4rem;color:var(--muted);cursor:pointer;background:none;border:none}
+  .modal h3{font-size:1.3rem;margin-bottom:8px}
+  .modal p{color:var(--muted);font-size:.95rem;margin-bottom:16px}
+  .modal .big{color:var(--brand-dark);font-family:'Space Grotesk';font-weight:700;font-size:1.1rem}
+  .modal .ghost{display:block;margin-top:12px;color:var(--muted);font-size:.82rem;background:none;border:none;cursor:pointer;text-decoration:underline;width:100%}
+
+  /* FLOAT SOCIAL PROOF */
+  .float{position:fixed;left:14px;bottom:14px;z-index:80;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.14);padding:10px 14px;font-size:.8rem;max-width:270px;display:none;animation:slideIn .4s}
+  .float.show{display:block}
+  .float b{color:var(--brand-dark)}
+  .float small{color:var(--muted);display:block;font-size:.7rem;margin-top:2px}
+  @keyframes slideIn{from{transform:translateX(-120%);opacity:0}to{transform:translateX(0);opacity:1}}
+</style>
+</head>
+<body>
+
+<!-- STICKY -->
+<div class="sticky">
+  <span class="tag">SÓ HOJE</span>
+  <span>De <s>R$97</s> por R$26,90</span>
+  <span id="timer">15:00</span>
+</div>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="hero">
+    <span class="badge-top">⭐ +472 mães já usam em casa</span>
+    <h1>+900 Ferramentas Terapêuticas <span class="em">Prontas pra Imprimir</span> e Usar Hoje</h1>
+    <p class="sub">Organizadas por idade, do terror dos 3 anos à pré-adolescência. Você <b>imprime, senta com seu filho e aplica</b> — em 5 minutos, sem preparo e sem terapeuta.</p>
+    <!-- IMAGEM HERO: mockup dos kits impressos espalhados numa mesa + criança usando. Trocar assets/hero.jpg -->
+    <div class="hero-img">[ Imagem: kits impressos numa mesa + mãe e filho aplicando uma atividade ]</div>
+    <div class="print-chip">🖨️ Baixe → Imprima → Aplique</div>
+    <div class="stats">
+      <div class="stat">📄 <b>+900</b> ferramentas</div>
+      <div class="stat">👶 <b>5</b> kits por idade</div>
+      <div class="stat">⭐ <b>4,9</b>/5 (472)</div>
+    </div>
+    <div style="margin-top:18px">
+      <a href="#planos" class="cta">QUERO ACALMAR MEU FILHO →</a>
+      <p class="sub-cta">Acesso imediato · Pagamento único · Pronto pra imprimir</p>
+    </div>
+  </div>
+
+  <!-- DOR -->
+  <section>
+    <div class="center"><div class="kicker">Se você é mãe, já viveu isso</div></div>
+    <ul class="pain">
+      <li><span class="x">✕</span> Seu filho tem crises e você não sabe o que fazer na hora</li>
+      <li><span class="x">✕</span> Ele não consegue explicar o que sente — só chora ou grita</li>
+      <li><span class="x">✕</span> Você acaba gritando e depois se sente a pior mãe do mundo</li>
+      <li><span class="x">✕</span> Terapia é cara e a fila do convênio nunca anda</li>
+      <li><span class="x">✕</span> Você já baixou mil PDFs soltos e nunca sabe qual usar</li>
+      <li><span class="x">✕</span> Cada nova fase parece um desafio que você não foi preparada pra enfrentar</li>
+    </ul>
+    <p class="turn">A verdade é que você não precisa de mais teoria.<br><span class="hl">Você precisa de algo pronto pra imprimir e usar hoje.</span></p>
+  </section>
+
+  <!-- O QUE RECEBE: KITS POR IDADE -->
+  <section>
+    <div class="center">
+      <div class="kicker">Um kit pra cada fase</div>
+      <h2>Você abre a idade do seu filho e <span class="em">já sabe o que imprimir</span></h2>
+      <p class="sub" style="margin-bottom:20px">Nada de garimpar em 900 arquivos. Tudo separado por fase, pronto pra imprimir na impressora de casa ou na papelaria.</p>
+    </div>
+
+    <div class="journey">
+      <div class="stage" style="--c:#f4886a;--cbg:#fdeee7">
+        <div class="stage-card">
+          <div class="stage-age"><b>3–4</b><small>ANOS</small></div>
+          <div class="stage-body"><h3>Primeiras Emoções</h3><p>Nomear sentimentos, lidar com a birra e as primeiras frustrações.</p><span class="stage-print">Primeira infância</span></div>
+        </div>
+      </div>
+      <div class="stage" style="--c:#e8628a;--cbg:#fde4ee">
+        <div class="stage-card">
+          <div class="stage-age"><b>5–6</b><small>ANOS</small></div>
+          <div class="stage-body"><h3>Domando as Crises</h3><p>Raiva, ansiedade de separação e adaptação à escola.</p><span class="stage-print">Fase pré-escolar</span></div>
+        </div>
+      </div>
+      <div class="stage" style="--c:#a06cd5;--cbg:#f1e9fb">
+        <div class="stage-card">
+          <div class="stage-age"><b>7–8</b><small>ANOS</small></div>
+          <div class="stage-body"><h3>Autoestima e Amizades</h3><p>Crítico interno, comparação e os primeiros conflitos sociais.</p><span class="stage-print">Idade escolar</span></div>
+        </div>
+      </div>
+      <div class="stage" style="--c:#4a90d9;--cbg:#e5f0fb">
+        <div class="stage-card">
+          <div class="stage-age"><b>9–10</b><small>ANOS</small></div>
+          <div class="stage-body"><h3>Mente Organizada</h3><p>Foco, distorções cognitivas e medo de errar.</p><span class="stage-print">Fim da infância</span></div>
+        </div>
+      </div>
+      <div class="stage" style="--c:#2fae7a;--cbg:#e3f6ee">
+        <div class="stage-card">
+          <div class="stage-age"><b>11–12</b><small>ANOS</small></div>
+          <div class="stage-body"><h3>Preparando a Adolescência</h3><p>Autoconhecimento, oscilações de humor e mudanças do corpo.</p><span class="stage-print">Pré-adolescência</span></div>
+        </div>
+      </div>
+      <div class="stage stage-games" style="--c:#f0a52e;--cbg:#fff2d6">
+        <div class="stage-card">
+          <div class="stage-age"><b>🎲</b><small>TODAS</small></div>
+          <div class="stage-body"><h3>+ 5 Jogos Terapêuticos</h3><p>Imprima, recorte e brinque em família — pra qualquer idade.</p><span class="stage-print">Todas as idades</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section>
+    <div class="center"><div class="kicker">O que muda na sua casa</div><h2>Resultados na prática</h2></div>
+    <div class="res" style="margin-top:16px">
+      <div class="item"><span class="ck">✓</span> Seu filho aprende a nomear e acalmar o que sente sozinho</div>
+      <div class="item"><span class="ck">✓</span> Menos crises, menos gritos — e menos culpa depois</div>
+      <div class="item"><span class="ck">✓</span> Você tem sempre a ferramenta certa pra cada situação</div>
+      <div class="item"><span class="ck">✓</span> Zero preparo: é só imprimir e sentar com ele</div>
+      <div class="item"><span class="ck">✓</span> Momentos de conexão de verdade, sem tela</div>
+      <div class="item"><span class="ck">✓</span> Segurança pra atravessar cada nova fase</div>
+    </div>
+  </section>
+
+  <!-- BONUS -->
+  <section>
+    <div class="center"><div class="kicker">Comprando hoje você leva também</div><h2>3 bônus <span class="em">prontos pra imprimir</span></h2></div>
+    <div style="margin-top:16px">
+      <div class="bonus"><span class="tag">BÔNUS 1</span><h3>O Que Fazer Durante uma Crise</h3><p>Passo a passo de 1 página por idade — imprime e cola na geladeira.</p><div class="val"><s>R$47</s> → <b>Grátis</b></div></div>
+      <div class="bonus"><span class="tag">BÔNUS 2</span><h3>Frases que Acalmam</h3><p>O que dizer (e o que NÃO dizer) na birra, por faixa etária.</p><div class="val"><s>R$37</s> → <b>Grátis</b></div></div>
+      <div class="bonus"><span class="tag">BÔNUS 3</span><h3>Calendário de Desenvolvimento Emocional</h3><p>Planner mensal do que trabalhar em cada fase — pronto pra imprimir.</p><div class="val"><s>R$39</s> → <b>Grátis</b></div></div>
+      <p class="bonus-close">Tudo isso sai <span class="em">de graça</span> garantindo hoje 👇</p>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section>
+    <div class="center"><div class="kicker">Quem já imprimiu</div><h2>Mães reais, resultados reais</h2></div>
+    <div style="margin-top:16px">
+      <div class="rev"><div class="stars">★★★★★</div><div class="who">Juliana M. <span>· Campinas/SP</span></div><p>"Imprimi o kit dos 5 anos e no mesmo dia meu filho já tava mais calmo na hora de dormir. Melhor R$27 que já gastei."</p></div>
+      <div class="rev"><div class="stars">★★★★★</div><div class="who">Patrícia R. <span>· Salvador/BA</span></div><p>"O que me pegou foi ser separado por idade. Eu nunca sabia o que usar, agora é só abrir a fase da minha filha e imprimir."</p></div>
+      <div class="rev"><div class="stars">★★★★★</div><div class="who">Fernanda L. <span>· Curitiba/PR</span></div><p>"As crises de raiva diminuíram MUITO. As fichas de respiração viraram rotina aqui em casa. Recomendo pra toda mãe."</p></div>
+    </div>
+    <!-- Trocar por depoimentos/prints reais quando tiver -->
+  </section>
+
+  <!-- PRICING -->
+  <section id="planos">
+    <div class="center"><div class="kicker">Escolha seu acesso</div><h2>Comece hoje por menos que uma pizza</h2></div>
+    <div class="plans">
+      <div class="plan">
+        <h3>Biblioteca Essencial</h3>
+        <div class="anchor">De <s>R$47</s> por</div>
+        <div class="price">R$14<small>,00</small></div>
+        <ul>
+          <li><span class="ck">✓</span> Os 5 kits por idade (3–12 anos)</li>
+          <li><span class="ck">✓</span> +900 ferramentas prontas pra imprimir</li>
+          <li class="no"><span class="ck">✕</span> 5 Jogos Terapêuticos</li>
+          <li class="no"><span class="ck">✕</span> Os 3 bônus</li>
+        </ul>
+        <a href="#checkout-basico" class="cta" id="btn-basico" style="font-size:1rem;animation:none;background:var(--muted);box-shadow:0 5px 0 #5f5257">QUERO A ESSENCIAL</a>
+      </div>
+
+      <div class="plan best">
+        <span class="flag">⭐ MAIS ESCOLHIDA PELAS MÃES</span>
+        <h3>Biblioteca Completa</h3>
+        <div class="anchor">De <s>R$97</s> por</div>
+        <div class="price">R$26<small>,90</small></div>
+        <ul>
+          <li><span class="ck">✓</span> Tudo da Essencial</li>
+          <li><span class="ck">✓</span> + 5 Jogos Terapêuticos pra imprimir</li>
+          <li><span class="ck">✓</span> + Bônus: O Que Fazer Durante uma Crise</li>
+          <li><span class="ck">✓</span> + Bônus: Frases que Acalmam</li>
+          <li><span class="ck">✓</span> + Bônus: Calendário de Desenvolvimento</li>
+        </ul>
+        <a href="#checkout-premium" class="cta">QUERO A COMPLETA →</a>
+        <div class="trust"><span>🔒 Compra segura</span><span>♾️ Acesso vitalício</span><span>🛡️ 7 dias de garantia</span></div>
+      </div>
+    </div>
+    <p class="sub-cta" style="margin-top:14px">📱💻 Baixe no celular ou computador · 🖨️ Imprima em casa ou na papelaria · Acesso imediato</p>
+  </section>
+
+  <!-- GARANTIA -->
+  <section>
+    <div class="guarantee">
+      <!-- SELO GARANTIA: salve a imagem em assets/garantia-7dias.png -->
+      <img class="seal-img" src="assets/garantia-7dias.png" alt="Garantia de 7 dias" width="120" height="120"
+           onerror="this.onerror=null;this.outerHTML='&lt;div class=&quot;seal&quot;&gt;&lt;b&gt;7&lt;/b&gt;&lt;small&gt;DIAS&lt;/small&gt;&lt;/div&gt;'">
+      <h2>Risco zero: garantia de 7 dias</h2>
+      <p style="color:var(--muted);margin-top:8px">Imprima, use com seu filho e sinta a diferença. Se em 7 dias você achar que não valeu, devolvemos cada centavo — sem perguntas. <b>O risco fica do nosso lado.</b></p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="center"><h2>Perguntas frequentes</h2></div>
+    <div style="margin-top:16px">
+      <div class="faq-item"><div class="faq-q">Como eu recebo o material? <span class="ico">+</span></div><div class="faq-a"><p>Na hora. Assim que a compra é aprovada, você recebe o acesso por e-mail e WhatsApp e já pode baixar tudo.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Preciso imprimir? Como funciona? <span class="ico">+</span></div><div class="faq-a"><p>Os materiais vêm em PDF tamanho A4, prontos pra imprimir na impressora de casa ou em qualquer papelaria. Também dá pra usar na tela, mas o forte é imprimir e aplicar com a criança.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Preciso ser psicóloga ou terapeuta? <span class="ico">+</span></div><div class="faq-a"><p>Não. Foi feito pra mães aplicarem em casa. Cada atividade já vem explicadinha do jeito que você faz com seu filho, sem precisar de formação.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Serve pra qual idade? <span class="ico">+</span></div><div class="faq-a"><p>De 3 a 12 anos. E como é separado por fase, você sempre usa o kit certo pra idade do seu filho. Tem upgrade pra adolescentes também.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Posso usar com mais de um filho? <span class="ico">+</span></div><div class="faq-a"><p>Pode! É seu pra sempre. Imprima quantas vezes quiser, pra todos os seus filhos.</p></div></div>
+      <div class="faq-item"><div class="faq-q">E se meu filho não engajar? <span class="ico">+</span></div><div class="faq-a"><p>Por isso tem os 5 jogos e o material lúdico — criança se envolve brincando. E você ainda tem 7 dias de garantia pra testar sem risco.</p></div></div>
+      <div class="faq-item"><div class="faq-q">O acesso é vitalício? <span class="ico">+</span></div><div class="faq-a"><p>Sim. Paga uma vez e o material fica seu pra sempre, com as atualizações futuras incluídas.</p></div></div>
+      <div class="faq-item"><div class="faq-q">E se eu não gostar? <span class="ico">+</span></div><div class="faq-a"><p>Você tem 7 dias pra pedir reembolso total. É só mandar uma mensagem e devolvemos tudo.</p></div></div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <div class="final">
+    <h2>Amanhã seu filho ainda vai ter emoções que ele não sabe lidar</h2>
+    <p style="opacity:.9;margin-top:10px">A diferença é você ter — ou não — a ferramenta certa impressa em cima da mesa na hora da crise.</p>
+    <a href="#checkout-premium" class="cta">QUERO MEU KIT COMPLETO →</a>
+    <p class="anchor-line">R$26,90 hoje ou mais uma semana de gritos e culpa. Você escolhe.</p>
+  </div>
+
+</div>
+
+<footer>
+  Crescer em Paz © 2025 · Todos os direitos reservados.<br>
+  Este produto é material de apoio educativo e não substitui acompanhamento psicológico profissional.
+</footer>
+
+<!-- POPUP DOWNSELL -->
+<div class="overlay" id="downsell">
+  <div class="modal">
+    <button class="close" onclick="closeDown()">×</button>
+    <h3>Espera! 🎁</h3>
+    <p>Por só <span class="big">R$12,90 a mais</span> você leva os <b>5 jogos + os 3 bônus</b> prontos pra imprimir. É o que quase toda mãe escolhe.</p>
+    <a href="#checkout-premium" class="cta">QUERO A COMPLETA POR R$26,90 →</a>
+    <button class="ghost" onclick="goBasico()">Não, quero só a essencial por R$14</button>
+  </div>
+</div>
+
+<!-- FLOAT SOCIAL PROOF -->
+<div class="float" id="float"></div>
+
+<script>
+  // TIMER 15min
+  var t=15*60;
+  var el=document.getElementById('timer');
+  setInterval(function(){
+    if(t>0)t--;
+    var m=String(Math.floor(t/60)).padStart(2,'0');
+    var s=String(t%60).padStart(2,'0');
+    el.textContent=m+':'+s;
+  },1000);
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(function(q){
+    q.addEventListener('click',function(){
+      var it=q.parentElement;
+      var a=it.querySelector('.faq-a');
+      var open=it.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight=null;});
+      if(!open){it.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+    });
+  });
+
+  // POPUP DOWNSELL no clique do basico
+  var pendingBasico=false;
+  document.getElementById('btn-basico').addEventListener('click',function(e){
+    if(!pendingBasico){e.preventDefault();document.getElementById('downsell').classList.add('show');}
+  });
+  function closeDown(){document.getElementById('downsell').classList.remove('show');}
+  function goBasico(){pendingBasico=true;closeDown();window.location.href='#checkout-basico';}
+
+  // FLOAT social proof
+  var nomes=['Juliana (Campinas)','Patrícia (Salvador)','Fernanda (Curitiba)','Aline (Recife)','Camila (Belo Horizonte)','Renata (Porto Alegre)'];
+  var fl=document.getElementById('float');
+  function showFloat(){
+    var n=nomes[Math.floor(Math.random()*nomes.length)];
+    var min=Math.floor(Math.random()*9)+1;
+    fl.innerHTML='<b>'+n+'</b> acabou de garantir o kit completo 🖨️<small>há '+min+' min · compra verificada</small>';
+    fl.classList.add('show');
+    setTimeout(function(){fl.classList.remove('show');},5000);
+  }
+  setTimeout(function(){showFloat();setInterval(showFloat,14000);},6000);
+</script>
+
+</body>
+</html>
