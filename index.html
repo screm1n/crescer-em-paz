@@ -322,10 +322,10 @@
     <div class="center"><div class="kicker">Direto do WhatsApp e do Direct</div><h2>O que as mães <span class="em">estão falando</span></h2></div>
     <p class="swipe-hint">← arraste pra ver mais →</p>
     <div class="prints">
-      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-16.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
-      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-17.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
-      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-18.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
-      <div class="print"><span class="verified">✓ Real</span><img src="assets/imagens/1-19.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><img src="assets/imagens/1-16.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><img src="assets/imagens/1-17.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><img src="assets/imagens/1-18.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
+      <div class="print"><img src="assets/imagens/1-19.webp" alt="Depoimento de mãe sobre o kit" loading="lazy"></div>
     </div>
   </section>
 
@@ -461,6 +461,34 @@
     setTimeout(function(){fl.classList.remove('show');},5000);
   }
   setTimeout(function(){showFloat();setInterval(showFloat,14000);},6000);
+
+  // CARROSSEL DEPOIMENTOS — auto-scroll 4s
+  (function(){
+    var track=document.querySelector('.prints');
+    if(!track)return;
+    if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+    var cards=track.querySelectorAll('.print');
+    var idx=0, paused=false, resumeTimer;
+    function step(){
+      if(paused)return;
+      idx=(idx+1)%cards.length;
+      var target=cards[idx].offsetLeft-track.offsetLeft;
+      track.scrollTo({left:target,behavior:'smooth'});
+    }
+    var auto=setInterval(step,4000);
+    // pausa quando o usuario mexe, retoma depois de 6s
+    ['touchstart','pointerdown','wheel'].forEach(function(ev){
+      track.addEventListener(ev,function(){
+        paused=true;clearTimeout(resumeTimer);
+        resumeTimer=setTimeout(function(){
+          // sincroniza idx com a posicao atual antes de retomar
+          var closest=0,min=1e9;
+          cards.forEach(function(c,i){var d=Math.abs(c.offsetLeft-track.offsetLeft-track.scrollLeft);if(d<min){min=d;closest=i;}});
+          idx=closest;paused=false;
+        },6000);
+      },{passive:true});
+    });
+  })();
 </script>
 
 </body>
