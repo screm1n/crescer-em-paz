@@ -1,0 +1,752 @@
+[
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Emoções, Expressão e Autoconhecimento/Descobrindo Emoções.pdf",
+  "title": "Descobrindo Emoções",
+  "slug": "descobrindo-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 37.95
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Descobrindo Emoções/Descobrindo Emoções na Infância.pdf",
+  "title": "Descobrindo Emoções na Infância",
+  "slug": "descobrindo-emocoes-na-infancia",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 13.14
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Fantastico mundo das emoçoes.pdf",
+  "title": "Fantastico mundo das emoçoes",
+  "slug": "fantastico-mundo-das-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 13.7
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Descobrindo Emoções/Livro Dos Sentimentos Emocoes.pdf",
+  "title": "Livro Dos Sentimentos Emocoes",
+  "slug": "livro-dos-sentimentos-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 51.59
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Emoções, Expressão e Autoconhecimento/Meu Mundo de Emoções.pdf",
+  "title": "Meu Mundo de Emoções",
+  "slug": "meu-mundo-de-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 18.27
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Minha semana de emoçoes.pdf",
+  "title": "Minha semana de emoçoes",
+  "slug": "minha-semana-de-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 1.89
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Descobrindo Emoções/Minhas emoçoes.pdf",
+  "title": "Minhas emoçoes",
+  "slug": "minhas-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.71
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Registro de Sentimentos/Registro de Sentimentos.pdf",
+  "title": "Registro de Sentimentos",
+  "slug": "registro-de-sentimentos",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 5.29
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Emoções, Expressão e Autoconhecimento/Registro de Sentimentos (1).pdf",
+  "title": "Registro de Sentimentos (1)",
+  "slug": "registro-de-sentimentos-1",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 18.3
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Registro de Sentimentos Para Criancas.pdf",
+  "title": "Registro de Sentimentos Para Criancas",
+  "slug": "registro-de-sentimentos-para-criancas",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 21.15
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Registro de Sentimentos/Registro Minha semana de emoçao.pdf",
+  "title": "Registro Minha semana de emoçao",
+  "slug": "registro-minha-semana-de-emocao",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 1.87
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Roda a Roda das Emoçoes.pdf",
+  "title": "Roda a Roda das Emoçoes",
+  "slug": "roda-a-roda-das-emocoes",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.89
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Rotina-imprimir/Rotina-imprimir.pdf",
+  "title": "Rotina-imprimir",
+  "slug": "rotina-imprimir",
+  "cat": "Emocoes & Autoconhecimento",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.49
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Emoções, Expressão e Autoconhecimento/Atividades de Inteligência Emocional.pdf",
+  "title": "Atividades de Inteligência Emocional",
+  "slug": "atividades-de-inteligencia-emocional",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 64.6
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Atividades inteligencia emocional .pdf",
+  "title": "Atividades inteligencia emocional",
+  "slug": "atividades-inteligencia-emocional",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.84
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Atividades para Explorar Emoções Infantis.pdf",
+  "title": "Atividades para Explorar Emoções Infantis",
+  "slug": "atividades-para-explorar-emocoes-infantis",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 65.38
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Caderno de atividades inteligencia emocional.pdf",
+  "title": "Caderno de atividades inteligencia emocional",
+  "slug": "caderno-de-atividades-inteligencia-emocional",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 7.1
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Cartilha inteligencia emocional.pdf",
+  "title": "Cartilha inteligencia emocional",
+  "slug": "cartilha-inteligencia-emocional",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.84
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Ebook Caderno Atividadades Socioemocionais Criancas 2.pdf",
+  "title": "Ebook Caderno Atividadades Socioemocionais Criancas 2",
+  "slug": "ebook-caderno-atividadades-socioemocionais-criancas-2",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 4.16
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades de Inteligência Emocional/Meu Caderno Das Emoções.pdf",
+  "title": "Meu Caderno Das Emoções",
+  "slug": "meu-caderno-das-emocoes",
+  "cat": "Inteligencia Emocional",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 3.65
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Ansiedade, Regulação e Sistema Nervoso/Kit de Ansiedade para Crianças.pdf",
+  "title": "Kit de Ansiedade para Crianças",
+  "slug": "kit-de-ansiedade-para-criancas",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 35.33
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Kit de Ansiedade para Crianças/Lidando com a ansiedade.pdf",
+  "title": "Lidando com a ansiedade",
+  "slug": "lidando-com-a-ansiedade",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 55.05
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Kit de Ansiedade para Crianças/Meu kit de ansiedade.pdf",
+  "title": "Meu kit de ansiedade",
+  "slug": "meu-kit-de-ansiedade",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 27.25
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Planilhas Terapêuticas para Ansiedade/Planilha terapeutica.pdf",
+  "title": "Planilha terapeutica",
+  "slug": "planilha-terapeutica",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 19.22
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Ansiedade, Regulação e Sistema Nervoso/Planilhas Terapêuticas para Ansiedade.pdf",
+  "title": "Planilhas Terapêuticas para Ansiedade",
+  "slug": "planilhas-terapeuticas-para-ansiedade",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 34.32
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Regulação do Sistema Nervoso/Regulação do Sistema Nervoso.pdf",
+  "title": "Regulação do Sistema Nervoso",
+  "slug": "regulacao-do-sistema-nervoso",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 5.91
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Ansiedade, Regulação e Sistema Nervoso/Regulação do Sistema Nervoso.pdf",
+  "title": "Regulação do Sistema Nervoso",
+  "slug": "regulacao-do-sistema-nervoso-2",
+  "cat": "Ansiedade & Regulacao",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 53.01
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Kit da Raiva para Crianças/Apagando o fogo da RAIVA.pdf",
+  "title": "Apagando o fogo da RAIVA",
+  "slug": "apagando-o-fogo-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 7.3
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Hackeando Minhas Emoções/Caderno das emoçoes.pdf",
+  "title": "Caderno das emoçoes",
+  "slug": "caderno-das-emocoes",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 31.81
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Estratégias para Controle da Raiva/Cartinhas para controle da raiva.pdf",
+  "title": "Cartinhas para controle da raiva",
+  "slug": "cartinhas-para-controle-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.92
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Kit da Raiva para Crianças/Combo raiva.pdf",
+  "title": "Combo raiva",
+  "slug": "combo-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 52.34
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Raiva, Impulsividade e Controle Emocional/Estratégias para Controle da Raiva.pdf",
+  "title": "Estratégias para Controle da Raiva",
+  "slug": "estrategias-para-controle-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 17.12
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Estratégias para Controle da Raiva/Habilidades de Enfrentamento Para Controle Da Raiva.pdf",
+  "title": "Habilidades de Enfrentamento Para Controle Da Raiva",
+  "slug": "habilidades-de-enfrentamento-para-controle-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 7.01
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Raiva, Impulsividade e Controle Emocional/Hackeando Minhas Emoções.pdf",
+  "title": "Hackeando Minhas Emoções",
+  "slug": "hackeando-minhas-emocoes",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 46.61
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Raiva, Impulsividade e Controle Emocional/Kit da Raiva para Crianças.pdf",
+  "title": "Kit da Raiva para Crianças",
+  "slug": "kit-da-raiva-para-criancas",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 52.67
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Estratégias para Controle da Raiva/Lidando com a Raiva.pdf",
+  "title": "Lidando com a Raiva",
+  "slug": "lidando-com-a-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 5.1
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Estratégias para Controle da Raiva/Meu Kit da Raiva.pdf",
+  "title": "Meu Kit da Raiva",
+  "slug": "meu-kit-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 13.02
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Estratégias para Controle da Raiva/Termometro Da Raiva.pdf",
+  "title": "Termometro Da Raiva",
+  "slug": "termometro-da-raiva",
+  "cat": "Raiva & Controle",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.33
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Autoestima, Pensamentos e Fortalecimento Emocional/Atividades para o Crítico Interno.pdf",
+  "title": "Atividades para o Crítico Interno",
+  "slug": "atividades-para-o-critico-interno",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 28.87
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Caderno de Atividades para Autoestima/Caderno autoestima.pdf",
+  "title": "Caderno autoestima",
+  "slug": "caderno-autoestima",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 28.1
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Autoestima, Pensamentos e Fortalecimento Emocional/Caderno de Atividades para Autoestima.pdf",
+  "title": "Caderno de Atividades para Autoestima",
+  "slug": "caderno-de-atividades-para-autoestima",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 30.78
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Autoestima, Pensamentos e Fortalecimento Emocional/Caderno de Distorções Cognitivas.pdf",
+  "title": "Caderno de Distorções Cognitivas",
+  "slug": "caderno-de-distorcoes-cognitivas",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 33.02
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Atividades para o Crítico Interno/Critico interno.pdf",
+  "title": "Critico interno",
+  "slug": "critico-interno",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 4.37
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Como Desenvolver Resiliência/Descobrindo a resiliencia.pdf",
+  "title": "Descobrindo a resiliencia",
+  "slug": "descobrindo-a-resiliencia",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 0.95
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Caderno de Atividades para Autoestima/espelho espelho meu.pdf",
+  "title": "espelho espelho meu",
+  "slug": "espelho-espelho-meu",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 1.64
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Autoestima, Pensamentos e Fortalecimento Emocional/Kit da Criança Alegre.pdf",
+  "title": "Kit da Criança Alegre",
+  "slug": "kit-da-crianca-alegre",
+  "cat": "Autoestima & Pensamentos",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 47.39
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Caderno de Exercícios em Arteterapia/arteterapia para criança e adolescente .pdf",
+  "title": "arteterapia para criança e adolescente",
+  "slug": "arteterapia-para-crianca-e-adolescente",
+  "cat": "Arteterapia",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 10.33
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Caderno de Exercícios em Arteterapia/Atividades arteterapia.pdf",
+  "title": "Atividades arteterapia",
+  "slug": "atividades-arteterapia",
+  "cat": "Arteterapia",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.95
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Expressão Criativa e Recursos para Adolescentes/Caderno de Atividades de Arteterapia.pdf",
+  "title": "Caderno de Atividades de Arteterapia",
+  "slug": "caderno-de-atividades-de-arteterapia",
+  "cat": "Arteterapia",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 54.99
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Pacote de Emoções para Adolescentes/Atividades para adolescente.pdf",
+  "title": "Atividades para adolescente",
+  "slug": "atividades-para-adolescente",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 10.5
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Pacote de Emoções para Adolescentes/Caderno atividades socioemocionais adolescentes.pdf",
+  "title": "Caderno atividades socioemocionais adolescentes",
+  "slug": "caderno-atividades-socioemocionais-adolescentes",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.66
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Descobrindo Emoções/Caderno Das Emocoes-Adolescentes.pdf",
+  "title": "Caderno Das Emocoes-Adolescentes",
+  "slug": "caderno-das-emocoes-adolescentes",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 18.35
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Pacote de Emoções para Adolescentes/Habilidades Socioemocionais para Adolescentes.pdf",
+  "title": "Habilidades Socioemocionais para Adolescentes",
+  "slug": "habilidades-socioemocionais-para-adolescentes",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 39.03
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Pacote de Emoções para Adolescentes/Kit Terapia Com Adolescente.pdf",
+  "title": "Kit Terapia Com Adolescente",
+  "slug": "kit-terapia-com-adolescente",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 11.68
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Expressão Criativa e Recursos para Adolescentes/Pacote de Emoções para Adolescentes.pdf",
+  "title": "Pacote de Emoções para Adolescentes",
+  "slug": "pacote-de-emocoes-para-adolescentes",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 65.58
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/Expressão Criativa e Recursos para Adolescentes/Planejador Completo para Adolescentes.pdf",
+  "title": "Planejador Completo para Adolescentes",
+  "slug": "planejador-completo-para-adolescentes",
+  "cat": "Recursos para Adolescentes",
+  "isJogo": false,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 27.4
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Caderno de Atividades para Autoestima/Baralho Autoestima Infantil.pdf",
+  "title": "Baralho Autoestima Infantil",
+  "slug": "baralho-autoestima-infantil",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 4.17
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Baralho Das Emoçoes e Sentimentos.pdf",
+  "title": "Baralho Das Emoçoes e Sentimentos",
+  "slug": "baralho-das-emocoes-e-sentimentos",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 5.95
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/jogo 3 = BARALHO-INFANTIL-DAS-EMOCOES/BARALHO-INFANTIL-DAS-EMOCOES-2.pdf",
+  "title": "BARALHO-INFANTIL-DAS-EMOCOES-2",
+  "slug": "baralho-infantil-das-emocoes-2",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.54
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/Cartas das Emoções.pdf",
+  "title": "Cartas das Emoções",
+  "slug": "cartas-das-emocoes",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 16.54
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/Jogo de Dados para Aconselhamento.pdf",
+  "title": "Jogo de Dados para Aconselhamento",
+  "slug": "jogo-de-dados-para-aconselhamento",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 31.83
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/jogo 5 = Jogo Terapia Desafios e Soluções/Jogo Terapia Desafios e Soluções.pdf",
+  "title": "Jogo Terapia Desafios e Soluções",
+  "slug": "jogo-terapia-desafios-e-solucoes",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 2.19
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/jogo 4 = Jogo-Terapêutico-o-Tempo-Fechou/Jogo-Terapêutico-o-Tempo-Fechou.pdf",
+  "title": "Jogo-Terapêutico-o-Tempo-Fechou",
+  "slug": "jogo-terapeutico-o-tempo-fechou",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 3.77
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/O Tempo Fechou.pdf",
+  "title": "O Tempo Fechou",
+  "slug": "o-tempo-fechou",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 16.01
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/O Tempo fechou - Jogo.pdf",
+  "title": "O Tempo fechou - Jogo",
+  "slug": "o-tempo-fechou-jogo",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 21.66
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Meu Mundo de Emoções/Pote das Emoções.pdf",
+  "title": "Pote das Emoções",
+  "slug": "pote-das-emocoes",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 4.99
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/Roda das Estratégias de Calma.pdf",
+  "title": "Roda das Estratégias de Calma",
+  "slug": "roda-das-estrategias-de-calma",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 29.74
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/jogo 1 = Roda de escolhas da Raiva/RODA-DE-ESCOLHAS-DA-RAIVA.pdf",
+  "title": "RODA-DE-ESCOLHAS-DA-RAIVA",
+  "slug": "roda-de-escolhas-da-raiva",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 6.14
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/Kit de Ansiedade para Crianças/Tabuleiro Da Ansiedade.pdf",
+  "title": "Tabuleiro Da Ansiedade",
+  "slug": "tabuleiro-da-ansiedade-2",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 1.47
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/5 Jogos Terapêuticos para Atendimentos Mais Engajadores/Tabuleiro da Ansiedade.pdf",
+  "title": "Tabuleiro da Ansiedade",
+  "slug": "tabuleiro-da-ansiedade-3",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "novo",
+  "mb": 28.55
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/Ferramentas Terapêuticas modelo 2/jogo 2 = Tabuleiro-Da-Ansiedade/Tabuleiro-Da-Ansiedade.pdf",
+  "title": "Tabuleiro-Da-Ansiedade",
+  "slug": "tabuleiro-da-ansiedade",
+  "cat": "Jogos",
+  "isJogo": true,
+  "isBonus": false,
+  "modelo": "modelo2",
+  "mb": 1.48
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/1- BÔNUS ESPECIAIS/Fichas de Evolução e Acompanhamento Terapêutico.pdf",
+  "title": "Fichas de Evolução e Acompanhamento Terapêutico",
+  "slug": "fichas-de-evolucao-e-acompanhamento-terapeutico",
+  "cat": "Bonus",
+  "isJogo": false,
+  "isBonus": true,
+  "modelo": "novo",
+  "mb": 24.68
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/1- BÔNUS ESPECIAIS/Folhas principais.pdf",
+  "title": "Folhas principais",
+  "slug": "folhas-principais",
+  "cat": "Bonus",
+  "isJogo": false,
+  "isBonus": true,
+  "modelo": "novo",
+  "mb": 16.79
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/1- BÔNUS ESPECIAIS/Orientações Prontas para Pais e Responsáveis.pdf",
+  "title": "Orientações Prontas para Pais e Responsáveis",
+  "slug": "orientacoes-prontas-para-pais-e-responsaveis",
+  "cat": "Bonus",
+  "isJogo": false,
+  "isBonus": true,
+  "modelo": "novo",
+  "mb": 17.3
+ },
+ {
+  "zippath": "1.257 Ferramentas Terapêuticas para Crianças e Adolescentes/ Ferramentas Terapêuticas ATUALIZADO NOVO MODELO/1- BÔNUS ESPECIAIS/Protocolos de Estabilização do Sistema Nervoso.pdf",
+  "title": "Protocolos de Estabilização do Sistema Nervoso",
+  "slug": "protocolos-de-estabilizacao-do-sistema-nervoso",
+  "cat": "Bonus",
+  "isJogo": false,
+  "isBonus": true,
+  "modelo": "novo",
+  "mb": 16.0
+ }
+]
