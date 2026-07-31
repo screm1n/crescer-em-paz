@@ -19,7 +19,7 @@ iframe{flex:1;border:none;width:100%;background:#fff}
 <iframe id="fr"></iframe>
 <script>
 var slug=new URLSearchParams(location.search).get('f')||'';
-var url='/pdfs/'+slug+'.pdf';
+var url='/membros/pdfs/'+slug+'.pdf';
 var fr=document.getElementById('fr'); fr.src=url;
 document.getElementById('dl').href=url;
 var link=location.origin+url;

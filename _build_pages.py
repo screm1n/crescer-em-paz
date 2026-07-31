@@ -6,7 +6,7 @@ man=json.load(open(os.path.join(M,'manifest.json'),encoding='utf-8'))
 
 # PLACEHOLDER do checkout do downsell (R$19,90) — trocar quando o usuario criar
 CHECKOUT_DOWNSELL="#checkout-downsell-1990"
-CSS_VERSION="20260731-note-black"
+CSS_VERSION="20260731-netlify-routes"
 
 CAT_LABEL={
  'Emocoes & Autoconhecimento':('Emoções & Autoconhecimento','💛'),
@@ -116,7 +116,7 @@ iframe{flex:1;border:none;width:100%;background:#fff}
 <iframe id="fr"></iframe>
 <script>
 var slug=new URLSearchParams(location.search).get('f')||'';
-var url='/pdfs/'+slug+'.pdf';
+var url='/membros/pdfs/'+slug+'.pdf';
 var fr=document.getElementById('fr'); fr.src=url;
 document.getElementById('dl').href=url;
 var link=location.origin+url;
@@ -157,7 +157,7 @@ def cat_id(cat):
 
 def card(it, locked):
     slug=it['slug']; title=esc(it['title'])
-    cap='/capas/'+slug+'.jpg'
+    cap='/membros/capas/'+slug+'.jpg'
     if locked:
         return f'''<div class="item locked">
           <div class="thumb"><img src="{cap}" alt="" loading="lazy" onerror="this.style.display='none'">
@@ -169,8 +169,8 @@ def card(it, locked):
       <div class="thumb"><img src="{cap}" alt="{title}" loading="lazy" onerror="this.style.background='var(--soft)'"></div>
       <h3>{title}</h3>
       <div class="actions">
-        <a class="btn btn-print" href="/imprimir.html?f={slug}" target="_blank" rel="noopener">🖨️ Imprimir</a>
-        <a class="btn btn-wa" href="/pdfs/{slug}.pdf" data-slug="{slug}" data-title="{title}" onclick="return sharePdf(this)">WhatsApp</a>
+        <a class="btn btn-print" href="/membros/imprimir.html?f={slug}" target="_blank" rel="noopener">🖨️ Imprimir</a>
+        <a class="btn btn-wa" href="/membros/pdfs/{slug}.pdf" data-slug="{slug}" data-title="{title}" onclick="return sharePdf(this)">WhatsApp</a>
       </div>
     </div>'''
 
@@ -199,7 +199,7 @@ def build(plan):
 <title>Crescer em Paz — {plan_name}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v={CSS_VERSION}">
+<link rel="stylesheet" href="/membros/style.css?v={CSS_VERSION}">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 </head><body>
 <div class="topbar"><div class="wrap">
@@ -228,7 +228,7 @@ def build(plan):
 async function sharePdf(a){{
   var slug=a.getAttribute('data-slug');
   var title=a.getAttribute('data-title')||'Material Crescer em Paz';
-  var url='/pdfs/'+slug+'.pdf';
+  var url='/membros/pdfs/'+slug+'.pdf';
   var link=location.origin+url;
   var oldText=a.textContent;
   a.classList.add('is-sharing');
@@ -274,9 +274,15 @@ window.addEventListener('DOMContentLoaded',function(){{
 }});
 </script>
 </body></html>'''
-    folder='membroessencial' if is_ess else 'membrocompleta'
-    os.makedirs(os.path.join(M,folder),exist_ok=True)
-    open(os.path.join(M,folder,'index.html'),'w',encoding='utf-8').write(doc)
+    folders=[os.path.join(M,'membroessencial' if is_ess else 'membrocompleta')]
+    if is_ess:
+        folders.append(os.path.join(BASE,'membroessencial'))
+    else:
+        folders.append(os.path.join(BASE,'membrocompleto'))
+        folders.append(os.path.join(BASE,'membrocompleta'))
+    for folder in folders:
+        os.makedirs(folder,exist_ok=True)
+        open(os.path.join(folder,'index.html'),'w',encoding='utf-8').write(doc)
     return unlocked_count
 
 e=build('essencial'); c=build('completa')

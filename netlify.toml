@@ -1,0 +1,29 @@
+[[redirects]]
+from = "/membrocompleta"
+to = "/membrocompleto/"
+status = 301
+
+[[redirects]]
+from = "/membrocompleta/*"
+to = "/membrocompleto/:splat"
+status = 301
+
+[[redirects]]
+from = "/membros/membrocompleta"
+to = "/membrocompleto/"
+status = 301
+
+[[redirects]]
+from = "/membros/membrocompleta/*"
+to = "/membrocompleto/:splat"
+status = 301
+
+[[redirects]]
+from = "/membros/membroessencial"
+to = "/membroessencial/"
+status = 301
+
+[[redirects]]
+from = "/membros/membroessencial/*"
+to = "/membroessencial/:splat"
+status = 301
