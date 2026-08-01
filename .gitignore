@@ -1,3 +1,8 @@
 node_modules/
 .DS_Store
 .netlify/
+
+# zip bruto dos entregaveis (1,5 GB) e arquivos de trabalho
+entregaveis/
+_teste/
+_processar.log
