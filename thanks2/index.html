@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deu tudo certo! Crescer em Paz</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#fff7f2;--card:#fff;--ink:#3a2e33;--muted:#7a6a70;--brand:#e8628a;--brand-dark:#c94873;--green:#2fae7a;--soft:#fde8ef;--line:#f2dbe3}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;
+    min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 18px;
+    background-image:radial-gradient(circle at 12% 18%,#ffe3ee 0,transparent 42%),radial-gradient(circle at 88% 82%,#ffeeda 0,transparent 42%)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:26px;max-width:480px;width:100%;
+    padding:38px 26px 30px;text-align:center;box-shadow:0 16px 44px rgba(201,72,115,.14)}
+  .selo{width:86px;height:86px;margin:0 auto 20px;border-radius:50%;
+    background:linear-gradient(160deg,#3cc98d,var(--green));display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 20px rgba(47,174,122,.34);animation:pop .5s cubic-bezier(.2,1.3,.4,1) both}
+  .selo svg{width:42px;height:42px}
+  .selo path{stroke:#fff;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;fill:none;
+    stroke-dasharray:32;stroke-dashoffset:32;animation:risca .45s .3s ease forwards}
+  @keyframes pop{from{transform:scale(.5);opacity:0}to{transform:scale(1);opacity:1}}
+  @keyframes risca{to{stroke-dashoffset:0}}
+  h1{font-family:'Space Grotesk',sans-serif;font-size:1.62rem;line-height:1.18;letter-spacing:-.02em;margin-bottom:10px}
+  h1 .em{color:var(--brand-dark)}
+  .sub{color:var(--muted);font-size:1rem;margin-bottom:22px}
+  .plano{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,#ffe9c9,var(--soft));
+    color:var(--brand-dark);border:1px solid #f2dbb5;border-radius:999px;padding:6px 15px;font-size:.82rem;font-weight:700;margin-bottom:18px}
+  .cta{display:block;background:linear-gradient(180deg,#3cc98d,var(--green));color:#fff;text-decoration:none;
+    font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;padding:17px 20px;border-radius:15px;
+    box-shadow:0 6px 0 #249163,0 12px 22px rgba(47,174,122,.28);transition:transform .12s,box-shadow .12s}
+  .cta:active{transform:translateY(4px);box-shadow:0 2px 0 #249163}
+  .contagem{color:var(--muted);font-size:.82rem;margin-top:11px}
+  .email{display:flex;gap:11px;align-items:flex-start;text-align:left;background:#fffaf0;border:1px solid #f2e0bd;
+    border-radius:14px;padding:13px 15px;margin-top:22px;font-size:.88rem;color:#6b5320}
+  .email .ico{font-size:1.15rem;line-height:1.2}
+  .email b{color:#8a5a00}
+  .dica{margin-top:16px;font-size:.84rem;color:var(--muted)}
+  .assina{margin-top:22px;padding-top:16px;border-top:1px dashed var(--line);font-size:.8rem;color:var(--muted)}
+  .assina b{color:var(--brand-dark);font-family:'Space Grotesk',sans-serif}
+  @media(max-width:380px){h1{font-size:1.42rem}.card{padding:32px 20px 26px}}
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="selo"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M13 24.5l7.5 7.5L35 17"/></svg></div>
+
+    <span class="plano">⭐ Biblioteca Completa</span>
+    <h1>Deu tudo certo, <span class="em">mãe</span>!</h1>
+    <p class="sub">Sua compra foi confirmada e tudo já está liberado: os materiais, os jogos e os bônus. É só imprimir e usar hoje.</p>
+
+    <a class="cta" href="https://crescer-em-paz-membros.netlify.app/membrocompleta/">ACESSAR MEUS MATERIAIS →</a>
+    <p class="contagem" id="contagem">Abrindo sua área em <b id="seg">7</b> segundos...</p>
+
+    <div class="email">
+      <span class="ico">💌</span>
+      <div>Também mandamos esse link no seu <b>e-mail</b>, então pode acessar quando quiser. Se não aparecer em alguns minutos, dá uma olhadinha no spam ou na aba de promoções.</div>
+    </div>
+
+    <p class="dica">Dica: salve a página nos favoritos do celular. Seu acesso é vitalício 💗</p>
+
+    <p class="assina">Com carinho,<br><b>Crescer em Paz</b> 🌱</p>
+  </main>
+
+<script>
+  var destino='https://crescer-em-paz-membros.netlify.app/membrocompleta/';
+  var s=7, el=document.getElementById('seg');
+  var t=setInterval(function(){
+    s--; if(el) el.textContent=s;
+    if(s<=0){ clearInterval(t); location.href=destino; }
+  },1000);
+  /* se a pessoa clicar ou rolar, cancela o redirecionamento e deixa ela ler */
+  ['click','touchstart','wheel','keydown'].forEach(function(ev){
+    window.addEventListener(ev,function(){
+      clearInterval(t);
+      var c=document.getElementById('contagem');
+      if(c) c.remove();
+    },{once:true,passive:true});
+  });
+</script>
+</body>
+</html>
