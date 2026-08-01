@@ -1,32 +1,27 @@
 [build]
 publish = "."
 
+# a area de membros mudou de dominio: manda os links antigos pro lugar certo
 [[redirects]]
-from = "/membrocompleta"
-to = "/membrocompleto/"
+from = "/membroessencial/*"
+to = "https://crescer-em-paz-membros.netlify.app/membroessencial/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "/membrocompleta/*"
-to = "/membrocompleto/:splat"
+to = "https://crescer-em-paz-membros.netlify.app/membrocompleta/:splat"
 status = 301
+force = true
 
 [[redirects]]
-from = "/membros/membrocompleta"
-to = "/membrocompleto/"
+from = "/membrocompleto/*"
+to = "https://crescer-em-paz-membros.netlify.app/membrocompleta/:splat"
 status = 301
+force = true
 
 [[redirects]]
-from = "/membros/membrocompleta/*"
-to = "/membrocompleto/:splat"
+from = "/membros/*"
+to = "https://crescer-em-paz-membros.netlify.app/:splat"
 status = 301
-
-[[redirects]]
-from = "/membros/membroessencial"
-to = "/membroessencial/"
-status = 301
-
-[[redirects]]
-from = "/membros/membroessencial/*"
-to = "/membroessencial/:splat"
-status = 301
+force = true
